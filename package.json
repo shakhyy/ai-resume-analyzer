@@ -1,0 +1,19 @@
+{
+  "name": "ai-resume-analyzer",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Full-stack AI Resume Analyzer with ATS scoring, resume parsing, job matching, and AI suggestions.",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace backend\" \"npm run dev --workspace frontend\"",
+    "build": "npm run build --workspace frontend",
+    "start": "concurrently \"npm run start --workspace backend\" \"npm run start --workspace frontend\"",
+    "lint": "npm run lint --workspace frontend"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
