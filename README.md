@@ -1,6 +1,6 @@
 # AI Resume Analyzer
 
-A production-ready full-stack web app for uploading resumes, parsing key sections, scoring ATS readiness, matching against a job role, and generating AI-assisted improvements.
+A production-ready full-stack web app for uploading resumes, parsing key sections, scoring ATS readiness, matching against a job role, suggesting improvements, and optimizing content for better job selection chances.
 
 ## Folder Structure
 
